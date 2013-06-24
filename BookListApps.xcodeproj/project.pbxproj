@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB466DA01778EEE100C48DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB466D9F1778EEE100C48DBA /* UIKit.framework */; };
+		CB466DA21778EEE100C48DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB466DA11778EEE100C48DBA /* Foundation.framework */; };
+		CB466DA41778EEE100C48DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB466DA31778EEE100C48DBA /* CoreGraphics.framework */; };
+		CB466DAA1778EEE100C48DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB466DA81778EEE100C48DBA /* InfoPlist.strings */; };
+		CB466DAC1778EEE100C48DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB466DAB1778EEE100C48DBA /* main.m */; };
+		CB466DB01778EEE100C48DBA /* BookListAppsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB466DAF1778EEE100C48DBA /* BookListAppsAppDelegate.m */; };
+		CB466DB21778EEE100C48DBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB466DB11778EEE100C48DBA /* Default.png */; };
+		CB466DB41778EEE100C48DBA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB466DB31778EEE100C48DBA /* Default@2x.png */; };
+		CB466DB61778EEE100C48DBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB466DB51778EEE100C48DBA /* Default-568h@2x.png */; };
+		CB466DB91778EEE100C48DBA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB466DB71778EEE100C48DBA /* MainStoryboard.storyboard */; };
+		CB466DBC1778EEE100C48DBA /* BookListAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB466DBB1778EEE100C48DBA /* BookListAppsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB466D9C1778EEE100C48DBA /* BookListApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookListApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB466D9F1778EEE100C48DBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB466DA11778EEE100C48DBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB466DA31778EEE100C48DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB466DA71778EEE100C48DBA /* BookListApps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookListApps-Info.plist"; sourceTree = "<group>"; };
+		CB466DA91778EEE100C48DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB466DAB1778EEE100C48DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB466DAD1778EEE100C48DBA /* BookListApps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookListApps-Prefix.pch"; sourceTree = "<group>"; };
+		CB466DAE1778EEE100C48DBA /* BookListAppsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListAppsAppDelegate.h; sourceTree = "<group>"; };
+		CB466DAF1778EEE100C48DBA /* BookListAppsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListAppsAppDelegate.m; sourceTree = "<group>"; };
+		CB466DB11778EEE100C48DBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CB466DB31778EEE100C48DBA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CB466DB51778EEE100C48DBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB466DB81778EEE100C48DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CB466DBA1778EEE100C48DBA /* BookListAppsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListAppsViewController.h; sourceTree = "<group>"; };
+		CB466DBB1778EEE100C48DBA /* BookListAppsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListAppsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB466D991778EEE100C48DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB466DA01778EEE100C48DBA /* UIKit.framework in Frameworks */,
+				CB466DA21778EEE100C48DBA /* Foundation.framework in Frameworks */,
+				CB466DA41778EEE100C48DBA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB466D931778EEE100C48DBA = {
+			isa = PBXGroup;
+			children = (
+				CB466DA51778EEE100C48DBA /* BookListApps */,
+				CB466D9E1778EEE100C48DBA /* Frameworks */,
+				CB466D9D1778EEE100C48DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB466D9D1778EEE100C48DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB466D9C1778EEE100C48DBA /* BookListApps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB466D9E1778EEE100C48DBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB466D9F1778EEE100C48DBA /* UIKit.framework */,
+				CB466DA11778EEE100C48DBA /* Foundation.framework */,
+				CB466DA31778EEE100C48DBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB466DA51778EEE100C48DBA /* BookListApps */ = {
+			isa = PBXGroup;
+			children = (
+				CB466DAE1778EEE100C48DBA /* BookListAppsAppDelegate.h */,
+				CB466DAF1778EEE100C48DBA /* BookListAppsAppDelegate.m */,
+				CB466DB71778EEE100C48DBA /* MainStoryboard.storyboard */,
+				CB466DBA1778EEE100C48DBA /* BookListAppsViewController.h */,
+				CB466DBB1778EEE100C48DBA /* BookListAppsViewController.m */,
+				CB466DA61778EEE100C48DBA /* Supporting Files */,
+			);
+			path = BookListApps;
+			sourceTree = "<group>";
+		};
+		CB466DA61778EEE100C48DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB466DA71778EEE100C48DBA /* BookListApps-Info.plist */,
+				CB466DA81778EEE100C48DBA /* InfoPlist.strings */,
+				CB466DAB1778EEE100C48DBA /* main.m */,
+				CB466DAD1778EEE100C48DBA /* BookListApps-Prefix.pch */,
+				CB466DB11778EEE100C48DBA /* Default.png */,
+				CB466DB31778EEE100C48DBA /* Default@2x.png */,
+				CB466DB51778EEE100C48DBA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB466D9B1778EEE100C48DBA /* BookListApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB466DBF1778EEE100C48DBA /* Build configuration list for PBXNativeTarget "BookListApps" */;
+			buildPhases = (
+				CB466D981778EEE100C48DBA /* Sources */,
+				CB466D991778EEE100C48DBA /* Frameworks */,
+				CB466D9A1778EEE100C48DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookListApps;
+			productName = BookListApps;
+			productReference = CB466D9C1778EEE100C48DBA /* BookListApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB466D941778EEE100C48DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BookListApps;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Goda;
+			};
+			buildConfigurationList = CB466D971778EEE100C48DBA /* Build configuration list for PBXProject "BookListApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB466D931778EEE100C48DBA;
+			productRefGroup = CB466D9D1778EEE100C48DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB466D9B1778EEE100C48DBA /* BookListApps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB466D9A1778EEE100C48DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB466DAA1778EEE100C48DBA /* InfoPlist.strings in Resources */,
+				CB466DB21778EEE100C48DBA /* Default.png in Resources */,
+				CB466DB41778EEE100C48DBA /* Default@2x.png in Resources */,
+				CB466DB61778EEE100C48DBA /* Default-568h@2x.png in Resources */,
+				CB466DB91778EEE100C48DBA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB466D981778EEE100C48DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB466DAC1778EEE100C48DBA /* main.m in Sources */,
+				CB466DB01778EEE100C48DBA /* BookListAppsAppDelegate.m in Sources */,
+				CB466DBC1778EEE100C48DBA /* BookListAppsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB466DA81778EEE100C48DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB466DA91778EEE100C48DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB466DB71778EEE100C48DBA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB466DB81778EEE100C48DBA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB466DBD1778EEE100C48DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB466DBE1778EEE100C48DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB466DC01778EEE100C48DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookListApps/BookListApps-Prefix.pch";
+				INFOPLIST_FILE = "BookListApps/BookListApps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB466DC11778EEE100C48DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookListApps/BookListApps-Prefix.pch";
+				INFOPLIST_FILE = "BookListApps/BookListApps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB466D971778EEE100C48DBA /* Build configuration list for PBXProject "BookListApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB466DBD1778EEE100C48DBA /* Debug */,
+				CB466DBE1778EEE100C48DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB466DBF1778EEE100C48DBA /* Build configuration list for PBXNativeTarget "BookListApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB466DC01778EEE100C48DBA /* Debug */,
+				CB466DC11778EEE100C48DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB466D941778EEE100C48DBA /* Project object */;
+}
