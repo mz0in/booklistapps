@@ -1,18 +1,159 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Book List Apps View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="BookListAppsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGA-eY-RGb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="rgz-7E-Z4Q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4F-rN-3lY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="cSu-jz-eJl"/>
+                                    <constraint firstAttribute="height" constant="30" id="sjf-Am-tk5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ISBN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sN7-e4-Zc8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QDm-oD-wg5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ea-Ov-qmP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HaK-SZ-ZTE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tag" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNY-92-ERG">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ct7-3e-1Z7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Book Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnj-W9-fGF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UCf-as-2m9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JG-Gc-VwQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gLA-Tl-mMi"/>
+                                    <constraint firstAttribute="width" constant="100" id="m76-e2-p5f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="book name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zN7-ie-92T">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="isbn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZR-2F-5tb">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hil-ey-vye">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="tag" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z87-dy-uEK">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="book type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWc-ub-tvA">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="description" translatesAutoresizingMaskIntoConstraints="NO" id="h60-lv-yyT">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="hAk-kJ-6cO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="h60-lv-yyT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="10g-vy-IMG"/>
+                            <constraint firstAttribute="bottom" secondItem="h60-lv-yyT" secondAttribute="bottom" constant="12" id="24w-dc-OBp"/>
+                            <constraint firstItem="Z87-dy-uEK" firstAttribute="top" secondItem="PNY-92-ERG" secondAttribute="top" type="default" id="5Ns-DS-lwd"/>
+                            <constraint firstAttribute="trailing" secondItem="Z87-dy-uEK" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="5OI-hG-EZT"/>
+                            <constraint firstItem="HWc-ub-tvA" firstAttribute="leading" secondItem="Z87-dy-uEK" secondAttribute="leading" type="default" id="7Go-RZ-dII"/>
+                            <constraint firstItem="Hil-ey-vye" firstAttribute="bottom" secondItem="7ea-Ov-qmP" secondAttribute="bottom" type="default" id="7lK-7W-6Ly"/>
+                            <constraint firstAttribute="trailing" secondItem="lGA-eY-RGb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="E00-ek-4Dq"/>
+                            <constraint firstItem="9JG-Gc-VwQ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="FEA-y9-r6j"/>
+                            <constraint firstItem="sN7-e4-Zc8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="196" id="Fu3-vq-jan"/>
+                            <constraint firstItem="h60-lv-yyT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GBE-aS-bvz"/>
+                            <constraint firstAttribute="trailing" secondItem="zN7-ie-92T" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="HTH-xZ-0AD"/>
+                            <constraint firstItem="F4F-rN-3lY" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Hkb-J5-Hth"/>
+                            <constraint firstItem="lGA-eY-RGb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="11" id="JYK-ku-HlM"/>
+                            <constraint firstItem="zN7-ie-92T" firstAttribute="leading" secondItem="F4F-rN-3lY" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Jwc-T4-1wF"/>
+                            <constraint firstItem="Z87-dy-uEK" firstAttribute="leading" secondItem="PNY-92-ERG" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="LIW-Cw-nLs"/>
+                            <constraint firstAttribute="trailing" secondItem="Hil-ey-vye" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QGK-v8-Gwx"/>
+                            <constraint firstItem="zN7-ie-92T" firstAttribute="bottom" secondItem="F4F-rN-3lY" secondAttribute="bottom" type="default" id="Tvx-aK-zGh"/>
+                            <constraint firstItem="Z87-dy-uEK" firstAttribute="leading" secondItem="Hil-ey-vye" secondAttribute="leading" type="default" id="U6w-eA-X1Z"/>
+                            <constraint firstAttribute="bottom" secondItem="hnj-W9-fGF" secondAttribute="bottom" constant="186" id="X0I-av-lq1"/>
+                            <constraint firstItem="PNY-92-ERG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="XbF-LO-4CO"/>
+                            <constraint firstAttribute="trailing" secondItem="HWc-ub-tvA" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Y1L-q4-WI7"/>
+                            <constraint firstItem="sN7-e4-Zc8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zm2-xZ-JfS"/>
+                            <constraint firstItem="HWc-ub-tvA" firstAttribute="bottom" secondItem="hnj-W9-fGF" secondAttribute="bottom" type="default" id="e0E-HK-xSW"/>
+                            <constraint firstAttribute="bottom" secondItem="PNY-92-ERG" secondAttribute="bottom" constant="233" id="ecx-Ve-8V6"/>
+                            <constraint firstItem="hnj-W9-fGF" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="er0-SC-ftm"/>
+                            <constraint firstItem="Hil-ey-vye" firstAttribute="leading" secondItem="pZR-2F-5tb" secondAttribute="leading" type="default" id="gBU-JV-MAR"/>
+                            <constraint firstItem="F4F-rN-3lY" firstAttribute="top" secondItem="lGA-eY-RGb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gRe-yG-eEL"/>
+                            <constraint firstItem="7ea-Ov-qmP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="237" id="gbu-XV-lGf"/>
+                            <constraint firstItem="Z87-dy-uEK" firstAttribute="bottom" secondItem="PNY-92-ERG" secondAttribute="bottom" type="default" id="hTb-d3-pzc"/>
+                            <constraint firstAttribute="trailing" secondItem="pZR-2F-5tb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="j59-pm-SZI"/>
+                            <constraint firstItem="pZR-2F-5tb" firstAttribute="leading" secondItem="zN7-ie-92T" secondAttribute="leading" type="default" id="j9p-L8-DRa"/>
+                            <constraint firstItem="Hil-ey-vye" firstAttribute="top" secondItem="7ea-Ov-qmP" secondAttribute="top" type="default" id="kvP-9o-9YY"/>
+                            <constraint firstItem="pZR-2F-5tb" firstAttribute="leading" secondItem="sN7-e4-Zc8" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="mzD-La-AAm"/>
+                            <constraint firstItem="Hil-ey-vye" firstAttribute="leading" secondItem="7ea-Ov-qmP" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="oJJ-0o-EaT"/>
+                            <constraint firstItem="lGA-eY-RGb" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="psQ-I7-YbG"/>
+                            <constraint firstItem="zN7-ie-92T" firstAttribute="top" secondItem="lGA-eY-RGb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="q3A-uc-a1p"/>
+                            <constraint firstItem="HWc-ub-tvA" firstAttribute="top" secondItem="hnj-W9-fGF" secondAttribute="top" type="default" id="qd3-Rh-1qW"/>
+                            <constraint firstItem="7ea-Ov-qmP" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qt3-Jc-4mQ"/>
+                            <constraint firstAttribute="bottom" secondItem="9JG-Gc-VwQ" secondAttribute="bottom" constant="141" id="shi-GX-t88"/>
+                            <constraint firstItem="pZR-2F-5tb" firstAttribute="bottom" secondItem="sN7-e4-Zc8" secondAttribute="bottom" type="default" id="wU1-T2-Xuj"/>
+                            <constraint firstItem="pZR-2F-5tb" firstAttribute="top" secondItem="sN7-e4-Zc8" secondAttribute="top" type="default" id="yCE-c2-OOR"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="author" destination="Hil-ey-vye" id="pjZ-It-dww"/>
+                        <outlet property="bookname" destination="zN7-ie-92T" id="jZq-Ml-sGa"/>
+                        <outlet property="booktype" destination="HWc-ub-tvA" id="qlF-Of-bo5"/>
+                        <outlet property="description" destination="h60-lv-yyT" id="k1X-gY-zVU"/>
+                        <outlet property="isbn" destination="pZR-2F-5tb" id="gTz-Bd-j9Y"/>
+                        <outlet property="tag" destination="Z87-dy-uEK" id="Gv1-f4-6xf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
